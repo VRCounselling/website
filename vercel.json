@@ -13,7 +13,37 @@
       "permanent": true
     },
     {
+      "source": "/index-pt/",
+      "destination": "/pt/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/index.html",
+      "destination": "/pt/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/index",
+      "destination": "/pt/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/index/",
+      "destination": "/pt/",
+      "permanent": true
+    },
+    {
       "source": "/faq.dc.html",
+      "destination": "/faq/",
+      "permanent": true
+    },
+    {
+      "source": "/faq.dc",
+      "destination": "/faq/",
+      "permanent": true
+    },
+    {
+      "source": "/faq.dc/",
       "destination": "/faq/",
       "permanent": true
     },
@@ -23,7 +53,22 @@
       "permanent": true
     },
     {
+      "source": "/faq",
+      "destination": "/faq/",
+      "permanent": true
+    },
+    {
       "source": "/faq-pt.dc.html",
+      "destination": "/pt/faq/",
+      "permanent": true
+    },
+    {
+      "source": "/faq-pt.dc",
+      "destination": "/pt/faq/",
+      "permanent": true
+    },
+    {
+      "source": "/faq-pt.dc/",
       "destination": "/pt/faq/",
       "permanent": true
     },
@@ -33,12 +78,17 @@
       "permanent": true
     },
     {
-      "source": "/privacy-policy.html",
-      "destination": "/privacy/",
+      "source": "/faq-pt",
+      "destination": "/pt/faq/",
       "permanent": true
     },
     {
-      "source": "/privacy-policy.dc.html",
+      "source": "/faq-pt/",
+      "destination": "/pt/faq/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.html",
       "destination": "/privacy/",
       "permanent": true
     },
@@ -48,18 +98,158 @@
       "permanent": true
     },
     {
+      "source": "/privacy-policy/",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.dc.html",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.dc",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.dc/",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/VR%20Counselling%20Website.dc.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/VR%20Counselling%20Website.dc",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/VR%20Counselling%20Website.dc/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/VR Counselling Website.dc.html",
       "destination": "/",
       "permanent": true
     },
     {
-      "source": "/blog/:slug.dc.html",
-      "destination": "/blog/:slug/",
+      "source": "/VR Counselling Website.dc",
+      "destination": "/",
       "permanent": true
     },
     {
-      "source": "/pt/index.html",
-      "destination": "/pt/",
+      "source": "/VR Counselling Website.dc/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/always-strong-one.dc.html",
+      "destination": "/blog/always-strong-one/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/always-strong-one.dc",
+      "destination": "/blog/always-strong-one/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/always-strong-one.dc/",
+      "destination": "/blog/always-strong-one/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/asking-for-help.dc.html",
+      "destination": "/blog/asking-for-help/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/asking-for-help.dc",
+      "destination": "/blog/asking-for-help/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/asking-for-help.dc/",
+      "destination": "/blog/asking-for-help/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/attachment-patterns.dc.html",
+      "destination": "/blog/attachment-patterns/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/attachment-patterns.dc",
+      "destination": "/blog/attachment-patterns/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/attachment-patterns.dc/",
+      "destination": "/blog/attachment-patterns/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/high-functioning-anxiety.dc.html",
+      "destination": "/blog/high-functioning-anxiety/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/high-functioning-anxiety.dc",
+      "destination": "/blog/high-functioning-anxiety/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/high-functioning-anxiety.dc/",
+      "destination": "/blog/high-functioning-anxiety/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/loneliness.dc.html",
+      "destination": "/blog/loneliness/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/loneliness.dc",
+      "destination": "/blog/loneliness/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/loneliness.dc/",
+      "destination": "/blog/loneliness/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/nighttime-anxiety.dc.html",
+      "destination": "/blog/nighttime-anxiety/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/nighttime-anxiety.dc",
+      "destination": "/blog/nighttime-anxiety/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/nighttime-anxiety.dc/",
+      "destination": "/blog/nighttime-anxiety/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/worry-vs-anxiety.dc.html",
+      "destination": "/blog/worry-vs-anxiety/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/worry-vs-anxiety.dc",
+      "destination": "/blog/worry-vs-anxiety/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/worry-vs-anxiety.dc/",
+      "destination": "/blog/worry-vs-anxiety/",
       "permanent": true
     }
   ]
