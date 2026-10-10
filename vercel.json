@@ -1,0 +1,66 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/index-pt.html",
+      "destination": "/pt/",
+      "permanent": true
+    },
+    {
+      "source": "/index-pt",
+      "destination": "/pt/",
+      "permanent": true
+    },
+    {
+      "source": "/faq.dc.html",
+      "destination": "/faq/",
+      "permanent": true
+    },
+    {
+      "source": "/faq.html",
+      "destination": "/faq/",
+      "permanent": true
+    },
+    {
+      "source": "/faq-pt.dc.html",
+      "destination": "/pt/faq/",
+      "permanent": true
+    },
+    {
+      "source": "/faq-pt.html",
+      "destination": "/pt/faq/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.html",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.dc.html",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/VR Counselling Website.dc.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:slug.dc.html",
+      "destination": "/blog/:slug/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/index.html",
+      "destination": "/pt/",
+      "permanent": true
+    }
+  ]
+}

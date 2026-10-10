@@ -1,0 +1,196 @@
+/* ==========================================================================
+   VR Counselling — Color Tokens
+   ========================================================================== */
+
+:root {
+  /* ── Brand Gold (#cbb26a) ──────────────────────────────────────────────── */
+  --gold-50:  #FAF7EE;
+  --gold-100: #F3EDDA;
+  --gold-200: #E6DAB3;
+  --gold-300: #D8C78D;
+  --gold-400: #D1BC78;
+  --gold-500: #CBB26A;
+  --gold-600: #B49A4E;
+  --gold-700: #957E38;
+  --gold-800: #726025;
+  --gold-900: #4F4218;
+
+  /* ── Brand Green (#346800) ─────────────────────────────────────────────── */
+  --green-50:  #EFF5E7;
+  --green-100: #D5E6BE;
+  --green-200: #ABCD7E;
+  --green-300: #80B33F;
+  --green-400: #548E10;
+  --green-500: #346800;
+  --green-600: #2C5800;
+  --green-700: #234700;
+  --green-800: #1A3500;
+  --green-900: #122500;
+
+  /* ── Warm Neutrals ────────────────────────────────────────────────────── */
+  --neutral-0:   #FFFFFF;
+  --neutral-50:  #FAF8F5;
+  --neutral-100: #F3F0EB;
+  --neutral-200: #E5E0D8;
+  --neutral-300: #D1CABF;
+  --neutral-400: #B0A799;
+  --neutral-500: #8C8275;
+  --neutral-600: #6B6358;
+  --neutral-700: #4D4740;
+  --neutral-800: #33302B;
+  --neutral-900: #1A1917;
+
+  /* ── Semantic — Surface ────────────────────────────────────────────────── */
+  --surface-page:       var(--neutral-50);
+  --surface-card:       var(--neutral-0);
+  --surface-card-hover: var(--neutral-100);
+  --surface-elevated:   var(--neutral-0);
+  --surface-sunken:     var(--neutral-100);
+  --surface-overlay:    rgba(26, 25, 23, 0.5);
+  --surface-accent:     var(--gold-50);
+  --surface-accent-strong: var(--gold-500);
+  --surface-green:      var(--green-500);
+  --surface-green-light: var(--green-50);
+
+  /* ── Semantic — Text ───────────────────────────────────────────────────── */
+  --text-primary:   var(--neutral-900);
+  --text-secondary: var(--neutral-600);
+  --text-tertiary:  var(--neutral-500);
+  --text-on-dark:   var(--neutral-50);
+  --text-on-accent: var(--neutral-0);
+  --text-accent:    var(--gold-600);
+  --text-green:     var(--green-600);
+  --text-link:      var(--gold-600);
+  --text-link-hover: var(--gold-700);
+
+  /* ── Semantic — Border ─────────────────────────────────────────────────── */
+  --border-default: var(--neutral-200);
+  --border-strong:  var(--neutral-300);
+  --border-accent:  var(--gold-400);
+  --border-focus:   var(--gold-500);
+
+  /* ── Semantic — Status ─────────────────────────────────────────────────── */
+  --status-success:    #3D7C3E;
+  --status-success-bg: #F0F7F0;
+  --status-warning:    #B8860B;
+  --status-warning-bg: #FEF9EE;
+  --status-error:      #C4422B;
+  --status-error-bg:   #FEF2F0;
+  --status-info:       #2E6B8A;
+  --status-info-bg:    #EEF6FA;
+}
+
+/* ==========================================================================
+   VR Counselling — Typography Tokens
+   Font: Nunito (body + UI) / Lora (display headings)
+   ========================================================================== */
+
+/* ── Font-family stacks ──────────────────────────────────────────────────── */
+
+:root {
+  --font-sans:     'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-serif:    'Lora', Georgia, 'Times New Roman', serif;
+
+  /* Semantic aliases */
+  --font-display:  var(--font-serif);
+  --font-heading:  var(--font-serif);
+  --font-body:     var(--font-sans);
+  --font-ui:       var(--font-sans);
+  --font-caption:  var(--font-sans);
+
+  /* ── Type Scale (major-third — 1.250) ──────────────────────────────────── */
+  --text-xs:   0.75rem;    /* 12px */
+  --text-sm:   0.875rem;   /* 14px */
+  --text-base: 1rem;       /* 16px */
+  --text-md:   1.125rem;   /* 18px */
+  --text-lg:   1.25rem;    /* 20px */
+  --text-xl:   1.5rem;     /* 24px */
+  --text-2xl:  1.875rem;   /* 30px */
+  --text-3xl:  2.25rem;    /* 36px */
+  --text-4xl:  3rem;       /* 48px */
+  --text-5xl:  3.75rem;    /* 60px */
+
+  /* ── Line heights ──────────────────────────────────────────────────────── */
+  --leading-tight:  1.2;
+  --leading-snug:   1.35;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.75;
+
+  /* ── Font weights ──────────────────────────────────────────────────────── */
+  --weight-light:    300;
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+
+  /* ── Letter spacing ────────────────────────────────────────────────────── */
+  --tracking-tight:   -0.01em;
+  --tracking-normal:   0;
+  --tracking-wide:     0.04em;
+  --tracking-wider:    0.08em;
+  --tracking-widest:   0.14em;
+}
+
+/* ==========================================================================
+   VR Counselling — Spacing, Radius & Shadow Tokens
+   ========================================================================== */
+
+:root {
+  /* ── Spacing scale (4px base) ──────────────────────────────────────────── */
+  --space-0:   0;
+  --space-1:   0.25rem;  /* 4px  */
+  --space-2:   0.5rem;   /* 8px  */
+  --space-3:   0.75rem;  /* 12px */
+  --space-4:   1rem;     /* 16px */
+  --space-5:   1.25rem;  /* 20px */
+  --space-6:   1.5rem;   /* 24px */
+  --space-8:   2rem;     /* 32px */
+  --space-10:  2.5rem;   /* 40px */
+  --space-12:  3rem;     /* 48px */
+  --space-16:  4rem;     /* 64px */
+  --space-20:  5rem;     /* 80px */
+  --space-24:  6rem;     /* 96px */
+
+  /* ── Border radii ──────────────────────────────────────────────────────── */
+  --radius-none: 0;
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   12px;
+  --radius-xl:   16px;
+  --radius-2xl:  24px;
+  --radius-full: 9999px;
+
+  /* ── Shadows (warm-tinted) ─────────────────────────────────────────────── */
+  --shadow-xs:  0 1px 2px rgba(26, 25, 23, 0.05);
+  --shadow-sm:  0 1px 3px rgba(26, 25, 23, 0.08), 0 1px 2px rgba(26, 25, 23, 0.04);
+  --shadow-md:  0 4px 6px rgba(26, 25, 23, 0.07), 0 2px 4px rgba(26, 25, 23, 0.04);
+  --shadow-lg:  0 10px 15px rgba(26, 25, 23, 0.07), 0 4px 6px rgba(26, 25, 23, 0.04);
+  --shadow-xl:  0 20px 25px rgba(26, 25, 23, 0.08), 0 8px 10px rgba(26, 25, 23, 0.03);
+  --shadow-2xl: 0 25px 50px rgba(26, 25, 23, 0.14);
+
+  /* ── Focus ring ────────────────────────────────────────────────────────── */
+  --ring-offset: 2px;
+  --ring-width:  2px;
+  --ring-color:  var(--gold-400);
+
+  /* ── Transitions ───────────────────────────────────────────────────────── */
+  --ease-default: cubic-bezier(0.4, 0, 0.2, 1); /* @kind other */
+  --ease-in:      cubic-bezier(0.4, 0, 1, 1); /* @kind other */
+  --ease-out:     cubic-bezier(0, 0, 0.2, 1); /* @kind other */
+  --ease-bounce:  cubic-bezier(0.34, 1.56, 0.64, 1); /* @kind other */
+  --duration-fast:   120ms; /* @kind other */
+  --duration-normal: 200ms; /* @kind other */
+  --duration-slow:   350ms; /* @kind other */
+
+  /* ── Layout ────────────────────────────────────────────────────────────── */
+  --container-sm:  640px;
+  --container-md:  768px;
+  --container-lg:  1024px;
+  --container-xl:  1200px;
+}
+
+/* Hover states formerly declared with the style-hover attribute */
+.hv1:hover { color: var(--text-primary) !important; }
+.hv2:hover { background: var(--gold-700) !important; color: #fff !important; }
+.hv3:hover { background: var(--gold-100) !important; }
+.hv4:hover { background: var(--gold-600) !important; box-shadow: 0 8px 24px rgba(203,178,106,0.35) !important; transform: translateY(-1px) !important; }
