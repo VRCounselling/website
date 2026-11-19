@@ -497,7 +497,9 @@
     .rate-card:last-of-type { margin-bottom: 0; }
     .rate-service { font-size: 18px; font-weight: 600; color: var(--neutral-900); }
     .rate-duration { font-size: 14px; color: var(--neutral-600); margin-top: 4px; }
-    .rate-right   { display: flex; align-items: center; gap: 12px; }
+    .rate-right   { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+    .rate-now     { display: flex; align-items: center; gap: 12px; }
+    .rate-future  { font-size: 13px; line-height: 1.4; color: var(--neutral-600); text-align: right; max-width: 260px; }
     .rate-price   { font-family: var(--font-serif); font-size: 24px; font-weight: 500; color: var(--gold-700); }
     .rate-note    { font-size: 12px; font-weight: 600; color: var(--gold-600); background: var(--gold-100); padding: 3px 10px; border-radius: var(--radius-full); }
     .rates-notes  { margin-top: 32px; display: flex; flex-direction: column; gap: 8px; }
@@ -625,6 +627,8 @@
       .faq-section  { padding: 56px 20px; }
       .rates-section { padding: 56px 20px; }
       .rate-card     { flex-direction: column; align-items: flex-start; gap: 12px; padding: 20px 24px; }
+      .rate-right    { align-items: flex-start; }
+      .rate-future   { text-align: left; max-width: none; }
       .blog-section { padding: 56px 20px; }
       .blog-grid    { grid-template-columns: 1fr; }
       .contact-section { padding: 56px 20px; }
